@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.sidebar{
+     background-color: rgb(201, 196, 196);
+     
+     height: 100vh;
+     font-family: 'Fira Sans' , sans-serif;
+     transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 40px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main{
+    /* background-color: yellow; */
+    width: 78vw;
+    
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    height: 712px
+}
+
+.infoContainer{
+    /* background-color: rgb(0, 60, 255); */
+    height: 58vh;
+    width: 80vw;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    font-size: 16px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     font-family: 'Source Code Pro', monospace;
+     padding: 90px;
+}
+
+.hello{
+    font-size: 3em;
+    color: white;
+    padding: 19px;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans' , sans-serif;
+    color: white;
+    padding: 16px;
+}
+
+.about{
+    font-size: 2.2em;
+    color: white;
+    padding: 11px;
+   
+}
+
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: 'Fira Sans' , sans-serif;
+    color: white;
+    padding: 14px;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+
+}
+
+
+.devPic img{
+    
+    height: 58vh;
+    padding-right: 78px;
+    border: 8px solid white;
+    border-image: aqua;
+    border-bottom-right-radius: 259px;
+    padding: 22px;
+    margin: 43px;
+    margin-top: -39px;
+    
+}
+.gif1{
+    margin-left: 318px;
+    
+    margin-top: -73px;
+    height: 316px;
+    width: 467px;
+    border-bottom-left-radius: 147px;
+    border-top-left-radius: 147px;
+    border-top-right-radius: 147px;
+}
+.gif2{
+    margin-left: 371px;
+    margin-top: -21px;
+    height: 327px;
+    width: 510px;
+    border-bottom-left-radius: 147px;
+    border-top-left-radius: 147px;
+    border-top-right-radius: 147px;
+}
+
+.contactform{
+    padding: 0 34px;
+    font-family: 'Fira Sans' , sans-serif;
+   
+    margin: 0 88px;
+    color: white;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+    /* text-align: center; */
+    
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+   
+}
+
+#emailHelp{
+font-size: 11px;
+color: wheat;
+margin: 0 5px;
+padding: 3px 0 0 0;
+}
+
+#form-check{
+    
+    flex-direction: row;
+
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.projectItem{
+     margin: 20px;
+     font-family: 'Fira Sans' , sans-serif;
+     color: white;
+}
+
+.projectContainer{
+    margin: 10px 88px;
+}
+
+h1{
+    font-family: 'Fira Sans' , sans-serif;
+    margin: 23px;
+    color: white;
+} 
+
+p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+}
+
+.intro{
+    margin: 10px 88px;
+}
+
+.intro h2{
+    font-family: 'Fira Sans' , sans-serif;
+    margin: 12px;
+    padding-top: 24px;
+    color: white;
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundered{
+    width: 265px;
+    background-color: blue;
+}
+
+.fifty{
+    width: 132.5px;
+    background-color: yellow;
+}
+
+.t25{
+    width: 66px;
+    background-color: olivedrab;
+}
+
+.t75{
+    width: 198px;
+    background-color: lightcoral;
+}
+.sidebarGo{
+
+transform: translate(-443px, 0px);
+position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    
+}
+
+.cross{
+    margin-left: 268px;
+}
+
+@media (max-width: 1133px) {
+ *{
+
+
+ }
+ .devPic{
+     display: none;
+ }
+
+ .intro, .projectContainer, .contactform{
+    margin: 50px 12px;
+ }
+
+
+
+
+}
